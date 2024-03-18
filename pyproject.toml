@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "eet-minmax-control"
+version = "0.1.0"
+description = "control my EET solar array"
+authors = ["Harald Schilly <harald.schilly@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+solmate-sdk = "^0.1.9"
+schedule = "^1.2.1"
+pytz = "^2024.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
